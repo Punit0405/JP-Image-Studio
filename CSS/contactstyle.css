@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+*{
+    margin: 0%;
+    padding: 0%
+    
+}
+    
+
+/* Header Dec  */
+#header1{
+    
+    position:absolute;
+    /* top: 50px; */
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    color: white;
+   background-color: rgb(5, 4, 58);
+   height: 150px;
+   scroll-behavior: smooth;
+   transition-property: background-color;
+   transition-duration: 1s;
+   transition-timing-function: ease-in-out;
+
+   
+   /* opacity: 0.7; */
+}
+#header1:hover{
+    background-color: black;
+}
+#navbar{
+    position: relative;
+    /* width: max-content; */
+    padding-top:50px;
+    padding-bottom:-50px;
+    display: flex;
+    
+    margin-left: 850px;
+    /* border: 2px solid red; */
+    height:100px;
+
+    
+    
+    
+    
+}
+
+
+.navbar ul{
+    
+    position: relative;
+    display: flex;
+    width: 450px;
+    padding: 15px 0px;
+    height: 32px;
+    /* margin-top: 50px; */
+    padding-bottom:-50px;
+   list-style-type: none;
+
+   
+    
+    
+    
+}
+ 
+.navbar ul li a{
+    position: relative;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+     color:white;
+     font-family: 'Varela Round', sans-serif;
+}
+
+
+.navbar ul li a:hover{
+    color:white;
+
+    /* font-size: 18px; */
+    border-radius: 8px;
+    background-color: white;
+}
+
+    
+
+#logo{
+    position: absolute;
+    padding: 3px;
+    /* margin-right: 300px; */
+    height: 144px;
+    width: 300px;
+    filter: invert(100%);
+}
+
+/* BODY DEC */
+
+#contactsection{
+    background-color: rgb(248, 244, 237);
+    position: absolute;
+    display: flex;
+    margin-top: 150px;
+
+    flex-direction:column;
+    align-items: center;
+    /* justify-content: center; */
+    /* border:5px solid black; */
+    width: 100%;
+    height: 200vh;
+   
+
+}
+#contactdiv{
+    margin-top:90px;
+    font-family: 'Varela Round', sans-serif;
+
+}
+#aboutintro{
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-top:15px;
+    /* padding: 5px; */
+    justify-content: center;
+}
+.contact-about{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 22px;
+    /* border:2px solid red; */
+    padding: -5px 0px;
+    display: flex;
+    flex-direction: row;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+}
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+.form1{
+    padding: 5px 5px;
+    width:60%;
+    outline: none;
+    border: none;
+    font-family: 'Varela Round', sans-serif;
+    
+    margin: 5px 0px;
+
+
+}
+.formtext{
+    font-weight: bold;
+}
+.formborder
+{
+    border-bottom:2px solid black;
+    background-color: rgb(248, 244, 237);
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#btn{
+    width:100px;
+    margin-left: 160px;
+    background-color: rgb(5, 4, 58) ;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+}
+#btn:hover{
+    background-color: black;
+    color:white;
+}
+#footer{
+    margin-top: 50px;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    width:100%;
+}
