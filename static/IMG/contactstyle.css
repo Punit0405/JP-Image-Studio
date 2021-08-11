@@ -110,6 +110,22 @@
    
 
 }
+
+#aboutsection{
+    background-color: rgb(248, 244, 237);
+    position: absolute;
+    display: flex;
+    /* margin-top: 150px; */
+
+    flex-direction:column;
+    align-items: center;
+    /* justify-content: center; */
+    /* border:5px solid black; */
+    width: 100%;
+    height: 130%;
+   
+
+}
 #contactdiv{
     margin-top:90px;
     font-family: 'Varela Round', sans-serif;
@@ -119,9 +135,11 @@
     /* border:2px solid red; */
     display: flex;
     flex-direction: column;
-    margin-top:15px;
-    /* padding: 5px; */
+    /* margin:15px 200px; */
     justify-content: center;
+    padding: 20px 100px;
+    align-items: center;
+
 }
 .contact-about{
     font-family: 'Varela Round', sans-serif;
@@ -153,6 +171,7 @@
 }
 .formtext{
     font-weight: bold;
+    text-align: left;
 }
 .formborder
 {
@@ -190,7 +209,7 @@ input::-webkit-inner-spin-button {
     color:white;
 }
 #footer{
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 #info{
     display: flex;

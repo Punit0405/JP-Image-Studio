@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | JP Image Studio</title>
-    <link rel="stylesheet" href="./CSS/contactstyle.css">
+    <link rel="stylesheet" href="/static/IMG/contact.css">
+    <link rel="stylesheet" href="/static/IMG/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,101 +19,106 @@
     <!-- font-family: 'Varela Round', sans-serif; -->
     
 </head>
-
 <body>
-    <header class="header" id="header1">
+    <div id="maincontactcontainer">
+        <div id="header">
+            <div class="logo">
+                <img src="./static/IMG/logo.png" alt="Jp image Studio" class="logo" id="logo">
+            </div>
+            <div class="openMenu" ><i class="fa fa-bars" onclick='show()'></i></div>
+            
+                <ul id="mainMenu">
+                    <li id="list1"><a href="/home" class="active">Home</a></li>
+                    <li id="list2"><a href="/gallary" class="overlay" id="gallary-t">Gallery</a></li>
+                    <li id="list3"><a href="/about" class="overlay" id="about-t">About Us</a></li>
+                    <li id="list4"><a href="/contact" class="overlay" id="contact-t">Contact Us</a></li>
+                    <div class="closeMenu" ><i class="fa fa-times" onclick='hi();'></i></div>
+                    <span class="icons">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
 
-        <div class="logo">
-            <img src="./static/IMG/logo.png" alt="Jp image Studio" class="logo" id="logo">
+                    </span>
+                </ul>
+            
+
+            <script>
+                function hi(){
+                    
+                    
+                    // const mainMen = document.getElementById("navbar");
+                    // mainMen.style.display = 'none';
+                    const mainMenu = document.getElementById("mainMenu");
+
+                    mainMenu.style.top = '-120%';
+                }
+                
+                
+                function show(){
+                    
+                    const mainMenu = document.getElementById("mainMenu");
+                    mainMenu.style.display = 'flex';
+                    
+                    mainMenu.style.top = '0';
+                }
+
+                
+            </script>
         </div>
-        <nav class="navbar" id="navbar" >
-            <ul onmouseover=effect() onmouseout=normal()>
-                <li id="list1"><a href="#" class="overlay" id="home-t">Home</a></li>
-                <li id="list2"><a href="#" class="overlay" id="gallary-t">Gallary</a></li>
-                <li id="list3"><a href="#" class="overlay" id="about-t">About Us</a></li>
-                <li id="list4"><a href="#" class="overlay" id="contact-t">Contact Us</a></li>
-            </ul>
-        </nav>
-
-        <script>
-             function effect(){
-                 let a=document.getElementById("home-t");
-                 let b=document.getElementById("gallary-t");
-                 let c=document.getElementById("about-t");
-                 let d=document.getElementById("contact-t");
-                 a.style.color="black";
-                 b.style.color="black";
-                 c.style.color="black";
-                 d.style.color="black";
-                 }        
-             function normal(){
-                let a=document.getElementById("home-t");
-                 let b=document.getElementById("gallary-t");
-                 let c=document.getElementById("about-t");
-                 let d=document.getElementById("contact-t");
-                 a.style.color="white";
-                 b.style.color="white";
-                 c.style.color="white";
-                 d.style.color="white";
-             }
-         </script>
-
-
-    </header>
-
-    <section id="contactsection">
-             <div class="contactus" id="contactdiv">
-                 <h1 class="contactus" id="contacthead">CONTACT US</h1>
-             </div>
-             <div id="aboutintro"><div id="description1" class="contact-about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima illo magni vel fuga praesentium dolores!</div>
-             <div id="description2" class="contact-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, neque!</div>
-             <div id="description3" class="contact-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quasi!</div>
-             <div id="description4" class="contact-about">Lorem ipsum dolor sit amet.</div>
-             <div id="description5" class="contact-about">Lorem ipsum dolor sit amet.</div>
-           </div>
-           <br><br>
-
-           <hr style="height:3px;width:1100px;border-width:0;color:gray;background-color:gray">
-
-        <div class="form" id="form">
+        <div id="contactwelcome">
+            <section id="contactsection">
+                <div class="contactus" id="contactdiv">
+                    <h1 class="contactus" id="contacthead">CONTACT US</h1>
+                </div>
+                <div id="aboutintro"><div id="description1" class="contact-about">Welcome To JP IMAGE STUDIO !</div>
+                <div id="description2" class="contact-about">Anytime You Can Contact To Us.</div>
+                <div id="description3" class="contact-about">Please Feel Free To Fill Contact Form !</div>
+                <div id="description4" class="contact-about">Your Details Will be Kept Secure.</div>
+                <div id="description5" class="contact-about">Details Will Not Be Shared!!</div>
+              </div>
+              <br><br>
+   
+              <hr style="height:3px;width:70%;border-width:0;color:gray;background-color:gray">
+           </section>>
+        </div>
+        <div id="contactform">
+            
 
             <form action="/submit" method="POST" id="contact-form" class="form1">
-                <div class="formtext">Bride Name*:</div>
-                <input type="bridename"  class="form1 formborder" id="bridename" placeholder="Bride Name:" required><br>
-                <div class="formtext">Groom Name*:</div>
-                <input type="groomname"  class="form1 formborder"id="groomname" placeholder="Groom Name:" required><br>
-                <div class="formtext">Event Date*:</div>
-                <input type="date" class="form1 formborder" name="eventdate" id="eventdate" placeholder="DD/MM/YYYY" required><br>
-                <div class="formtext">Venue Details*:</div>
-                <textarea name="venuedetails" id="venuedetails" class="form1 formborder" cols="700" rows="3"placeholder="Venue Details:" required></textarea><br>
-                <div class="formtext">Contact No*:</div>
-                <input type="number" class="form1 formborder" name="phone"id="contact" placeholder="Contact No:" required ><br>
-                <div class="formtext">Email ID*:</div>
-                <input type="email" class="form1 formborder" name="email"id="contact" placeholder="Email ID:" required ><br>
-                <button id="btn" type="submit">Submit</button>
+                <!-- <div class="formtext">Bride Name*:</div> -->
+                <input type="text" name="FirstName" class="form1 formborder" id="Bridename" placeholder="First Name (required)" required><br>
+                <!-- <div class="formtext">Groom Name*:</div> -->
+                <input type="text" name="LastName" class="form1 formborder"id="Groomname" placeholder="Last Name (required)" required><br>
+                <input type="email" class="form1 formborder" name="Email"id="contact" placeholder=" Your Email (required):" required ><br>
+                <input type="number" class="form1 formborder" name="Phone"id="contact" placeholder="Phone No:" required ><br>
+                
+                <textarea name="Message" id="venuedetails" class="form1 formborder" cols="700" rows="3"placeholder="Your Message" required></textarea><br>
+                <input type="text" name="Subject" class="form1 formborder"id="Subject" placeholder="Subject" ><br>
+                <input type="text" name="reference" class="form1 formborder"id="reference" placeholder="How Did You Hear About Us?" required><br>
+                
+                
+                <button id="btn" type="submit">Send</button>
             </form>
+            <hr style="height:3px;width:70%;border-width:0;color:gray;background-color:gray">
+            <!-- <script>
+                function showalert(){
+                    let BN=document.getElementById('Bridename');
+                    let Name=BN.innerText;
+                    console.log(Name);
+                    alert(Name);
+                }
+            </script> -->
         </div>
-
-        <hr style="height:3px;width:1100px;border-width:0;color:gray;background-color:gray">
-        <section class="info" id="info"><br><br>
-                        <div  id="ownerinfo">
-                            <h1>Owner Details</h1>
-                        </div><br><br>
-            <div id="prakash"><h2>Ritesh Purswani</h2></div>
-            <div id="address"><h3>JP Imaging Studio,Nr.Gor No Kuvo,Jashodanagar,380008</h3></div>
-            <div id="address"><h3> Contact No:777 800 5592</h3></div>
-        </section>
-     <footer class="footer" id="footer">
-
-        <div class="footer" id="divfooter">Copyright &#169;2021 | All Rights Reserved!</div>
-     </footer>
-     
-
-
-        
-
-    </section>
-
-    
+        <div id="ownerdetails">
+            <section class="info" id="info"><br><br>
+                <div  id="ownerinfo">
+                    <h1>Owner Details</h1>
+                </div><br><br>
+    <div id="prakash"><h2>Prakash Purswani & Nikhil Purswani</h2></div>
+    <div id="address"><h3>JP Image Studio,Nr.Gor No Kuvo,Jashodanagar,380008</h3></div>
+    <div id="address"><h3> Contact No:9913890055,8488889701</h3></div>
+</section>
+        </div>
+    </div>
 </body>
 </html>

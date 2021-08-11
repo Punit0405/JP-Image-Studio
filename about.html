@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | JP IMAGE STUDIO</title>
+    <link rel="stylesheet" href="/static/IMG/about.css">
+    <link rel="stylesheet" href="/static/IMG/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <!-- font-family: 'Dancing Script', cursive; -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- font-family: 'Varela Round', sans-serif; -->
+</head>
+<body>
+    <div id="mainaboutcontainer">
+        <div id="header">
+            <div class="logo">
+                <img src="./static/IMG/logo.png" alt="Jp image Studio" class="logo" id="logo">
+            </div>
+            <div class="openMenu" ><i class="fa fa-bars" onclick='show()'></i></div>
+            
+                <ul id="mainMenu">
+                    <li id="list1"><a href="/home" class="active">Home</a></li>
+                    <li id="list2"><a href="/gallary" class="overlay" id="gallary-t">Gallery</a></li>
+                    <li id="list3"><a href="/about" class="overlay" id="about-t">About Us</a></li>
+                    <li id="list4"><a href="/contact" class="overlay" id="contact-t">Contact Us</a></li>
+                    <div class="closeMenu" ><i class="fa fa-times" onclick='hi();'></i></div>
+                    <span class="icons">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+
+                    </span>
+                </ul>
+            
+
+            <script>
+                function hi(){
+                    
+                    
+                    // const mainMen = document.getElementById("navbar");
+                    // mainMen.style.display = 'none';
+                    const mainMenu = document.getElementById("mainMenu");
+
+                    mainMenu.style.top = '-120%';
+                }
+                
+                
+                function show(){
+                    
+                    const mainMenu = document.getElementById("mainMenu");
+                    mainMenu.style.display = 'flex';
+                    
+                    mainMenu.style.top = '0';
+                }
+
+                
+            </script>
+        </div>
+        <div id="aboutdescription">
+            <div class="contactus" id="contactdiv">
+                <h1 class="contactus" id="contacthead">ABOUT US</h1>
+            </div>
+            <div id="aboutintro">
+                <div id="description1" class="contact-about">JP Image Studio, a Photographic company that has been creating eye-catching photo images since last 32 years, with a unique blend of being with technology has humble beginning with 1 employee.</div><br>
+              <div id="description2" class="contact-about">The passion to excel in the art of photography and the vision of total artistic satisfaction for our clients since last 32 years have taken us on a long journey of visual photographic art. Our core strength is our passionate employees who create unbelievable images.</div><br>
+              <div id="description3" class="contact-about">
+                We have a feast of images with platters that serve for our valued clients a range of memorable cute baby portraits to romantically appealing wedding shoots and strikingly powerful corporate & industrial photo images.</div><br>
+             <div id="description4" class="contact-about">
+                We offer a complete range of Digital Photography and Videography solutions to suit all our clients. Our strong team of professional photographers and videographers shall always be at your back and call to provide you with a completely satisfying Visual Experience.</div><br>
+             <div id="description5" class="contact-about">Please come and experience a completely different and unique approach to photo services at our studios.</div>
+          </div>
+          <hr style="height:3px;width:70%;border-width:0;color:gray;background-color:gray">
+        </div>
+        <div id="ownerdetails">
+            <section class="info" id="info"><br><br>
+                <div  id="ownerinfo">
+                    <h1>Owner Details</h1>
+                </div><br><br>
+                <div id="prakash"><h2>Prakash Purswani & Nikhil Purswani</h2></div>
+                <div id="address"><h3>JP Image Studio,Nr.Gor No Kuvo,Jashodanagar,380008</h3></div>
+                <div id="address"><h3> Contact No:9913890055,8488889701</h3></div>
+</section>
+    
+</body>
+</html>

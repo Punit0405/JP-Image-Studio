@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+#mainaboutcontainer{
+    display: grid;
+    background-color: rgb(248, 244, 237);
+    width: 100
+    vw;
+    height: 165vh;
+    grid-template-rows: 0.7fr 3fr 1fr ;
+
+}
+
+#aboutdescription{
+    background-color: rgb(248, 244, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactdiv{
+    margin-top:90px;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+#aboutintro{
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* margin:15px 200px; */
+    justify-content: center;
+    padding: 20px 100px;
+    align-items: center;
+    
+}
+.contact-about{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 22px;
+    /* border:2px solid red; */
+    padding: -5px 0px;
+    display: flex;
+    flex-direction: row;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#ownerdetails{
+    background-color: rgb(248, 244, 237);
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    width:100%;
+}
+
+@media (max-width: 670px){
+    .contact-about{
+        font-size: 16px;
+        margin: 3px;
+    }
+    #aboutintro{
+        padding: 20px 20px;
+    }
+    #info{
+        font-size: 16px;
+        text-align: center;
+    }
+    
+        
+    
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | JP Image Studio</title>
+    <link rel="stylesheet" href="./static/IMG/contactstyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <!-- font-family: 'Dancing Script', cursive; -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- font-family: 'Varela Round', sans-serif; -->
+    
+</head>
+
+<body>
+    <header class="header" id="header1">
+
+        <div class="logo">
+            <img src="./static/IMG/logo.png" alt="Jp image Studio" class="logo" id="logo">
+        </div>
+        <nav class="navbar" id="navbar" >
+            <ul onmouseover=effect() onmouseout=normal()>
+                <li id="list1"><a href="/home" class="overlay" id="home-t">Home</a></li>
+                <li id="list2"><a href="/gallary" class="overlay" id="gallary-t">Gallary</a></li>
+                <li id="list3"><a href="/about" class="overlay" id="about-t">About Us</a></li>
+                <li id="list4"><a href="/contact" class="overlay" id="contact-t">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <script>
+             function effect(){
+                 let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="black";
+                 b.style.color="black";
+                 c.style.color="black";
+                 d.style.color="black";
+                 }        
+             function normal(){
+                let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="white";
+                 b.style.color="white";
+                 c.style.color="white";
+                 d.style.color="white";
+             }
+         </script>
+
+
+    </header>
+
+    <section id="contactsection">
+             <div class="contactus" id="contactdiv">
+                 <h1 class="contactus" id="contacthead">CONTACT US</h1>
+             </div>
+             
+             <div id="aboutintro">
+                 <div id="description1" class="contact-about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima illo magni vel fuga praesentium dolores!</div>
+                 <div id="description2" class="contact-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, neque!</div>
+                 <div id="description3" class="contact-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quasi!</div>
+                 <div id="description4" class="contact-about">Lorem ipsum dolor sit amet.</div>
+                 <div id="description5" class="contact-about">Lorem ipsum dolor sit amet.</div>
+             </div>
+           <br><br>
+
+           <hr style="height:3px;width:1100px;border-width:0;color:gray;background-color:gray">
+
+        <div class="form" id="form">
+
+            <form action="/submit" method="POST" id="contact-form" class="form1">
+                <div class="formtext">Bride Name*:</div>
+                <input type="bridename"  class="form1 formborder" id="bridename" placeholder="Bride Name:" required><br>
+                <div class="formtext">Groom Name*:</div>
+                <input type="groomname"  class="form1 formborder"id="groomname" placeholder="Groom Name:" required><br>
+                <div class="formtext">Event Date*:</div>
+                <input type="date" class="form1 formborder" name="eventdate" id="eventdate" placeholder="DD/MM/YYYY" required><br>
+                <div class="formtext">Venue Details*:</div>
+                <textarea name="venuedetails" id="venuedetails" class="form1 formborder" cols="700" rows="3"placeholder="Venue Details:" required></textarea><br>
+                <div class="formtext">Contact No*:</div>
+                <input type="number" class="form1 formborder" name="phone"id="contact" placeholder="Contact No:" required ><br>
+                <div class="formtext">Email ID*:</div>
+                <input type="email" class="form1 formborder" name="email"id="contact" placeholder="Email ID:" required ><br>
+                <button id="btn" type="submit">Submit</button>
+            </form>
+        </div>
+
+        <hr style="height:3px;width:1100px;border-width:0;color:gray;background-color:gray">
+        <section class="info" id="info"><br><br>
+                        <div  id="ownerinfo">
+                            <h1>Owner Details</h1>
+                        </div><br><br>
+            <div id="prakash"><h2>Ritesh Purswani</h2></div>
+            <div id="address"><h3>JP Imaging Studio,Nr.Gor No Kuvo,Jashodanagar,380008</h3></div>
+            <div id="address"><h3> Contact No:777 800 5592</h3></div>
+        </section>
+     <footer class="footer" id="footer">
+
+        <div class="footer" id="divfooter">Copyright &#169;2021 | All Rights Reserved!</div>
+     </footer>
+     
+
+
+        
+
+    </section>
+
+    
+</body>
+</html>

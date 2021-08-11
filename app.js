@@ -2,52 +2,69 @@ const express = require("express");
 const fs = require("fs");
 const path = require("path");
 const app = express();
-const port = 80;
+const port = 8080;
+const accountSid = 'ACb6b5d28cebc0b8ceeec993645392f774'; 
+const authToken = 'aaf4608f8fa97fbe1b4750430fb302c5'; 
+const client = require('twilio')(accountSid, authToken); 
 
   app.use(express.urlencoded());
 
-const wp=fs.readFileSync('./index.html');
-fs.writeFileSync("code.txt",wp);
+const gallary=fs.readFileSync('./gallary.html');
+const contact=fs.readFileSync('./contact.html');
+const index=fs.readFileSync('./index.html');
+const about=fs.readFileSync('./about.html');
 
 // // For serving static files
 app.use('/static', express.static('static'))
 
-// Set the template engine as pug
-app.set('view engine', 'pug')
 
-// Set the views directory
-app.set('views', path.join(__dirname, 'views'))
  
 // Our pug demo endpoint
 
 app.get('/',(req,res)=>{
-    res.status(200).render('index.pug');
-});
-app.get('/home',(req,res)=>{
-    res.status(200).render('index.pug');
+    res.status(200).end(index);
 });
 
+app.get('/home',(req,res)=>{
+    res.status(200).end(index);
+});
+
+
 app.get('/contact',(req,res)=>{
-    res.status(200).render('contact.pug');
+    res.status(200).end(contact);
+});
+
+app.get('/about',(req,res)=>{
+    res.status(200).end(about);
+});
+
+app.get('/gallary',(req,res)=>{
+    res.status(200).end(gallary);
 });
 
 app.post('/submit',(req,res)=>{
-    let Bridename = req.body.BrideName;
-    let GroomName = req.body.GroomName;
-    let EventDate = req.body.EventDate;
-    let VenueDetails = req.body.VenueDetails;
+    let FirstName = req.body.FirstName;
+    let LastName = req.body.LastName;
     let Phone = req.body.Phone;
     let Email = req.body.Email;
+    let Message = req.body.Message;
+    let Subject = req.body.Subject;
+    let reference = req.body.reference;
+
     
 
-    let Details=`Groom Name: ${GroomName} 
-                 Bride Name: ${Bridename} 
-                 Event Date: ${EventDate} 
-                 Venue Details : ${VenueDetails} 
-                  Phone:     ${Phone} 
-                  Email:     ${Email}`
+    let Details=`First Name: ${FirstName}\nLast Name: ${LastName}\nSubject: ${Subject}\nMessage : ${Message}\nPhone: ${Phone}\nEmail: ${Email}\nreference: ${reference}`
     
-    fs.writeFileSync('Details.txt', Details);
+    client.messages.create({ 
+         body: `Form Filled On JP IMAGING STUDIO!!.Here Are The Details!.\n${Details}`, 
+         from: 'whatsapp:+14155238886',       
+         to: 'whatsapp:+919265517932'  
+       }) 
+      .then(message => console.log(message.sid)) 
+      .done();
+    
+  res.status(200).end(contact);
+        
 });
 
 

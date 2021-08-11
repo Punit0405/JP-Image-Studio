@@ -18,3 +18,6 @@ function normal(){
     c.style.color="white";
     d.style.color="white";
 }
+function showalert(){
+    alert("Your Form Is Submitted Sucessfully.")
+}

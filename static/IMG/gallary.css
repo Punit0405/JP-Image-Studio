@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#maingallarycontainer{
+    display: grid;
+    width: 100vw;
+    height:325vh;
+    background-color: rgb(248, 244, 237);
+    grid-template-rows:  3fr 5fr ;
+}
+
+/* Videos Section  */
+
+.videosh1{
+    width:60%;
+    margin:  25px auto;
+    display: block;
+    text-align: center;
+}
+.videosh1 h1{
+    margin: 30px 0px;
+    color: grey;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-family: 'Varela Round', sans-serif;
+}
+#videos-main{
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: auto;
+}
+
+
+.video-setting{
+    width: 45%;
+    height: 34vh;
+    display: inline-flex;
+    /* border: 2px solid red; */
+    margin: 23px 23px;
+}
+
+
+
+.video-youtube{
+    width: 110%;
+    height: 34vh;
+    
+    /* border: 2px solid red; */
+    
+}
+
+@media (max-width: 1320px){
+    .video-setting{
+        margin: 23px 15px;
+    }
+    
+}
+/* Images Section  */
+#gallaryimages{
+
+    background-color: rgb(248, 244, 237);
+}
+
+
+
+
+
+#imagegrid{
+    width: 70%;
+    height:160vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-items: center;
+}
+
+.imageholder{
+    width: 100%;
+    height: 30vh;
+  
+    
+}
+.imageview
+{
+  height: 30vh;
+  width:100%;
+}
+@media (max-width: 950px)
+{
+   .video-setting{
+       width: 100%;
+       margin: 15px 0px;
+    }
+   #imagegrid{
+       grid-template-columns: 1fr 1fr;
+       row-gap: 0.3vh;
+       
+   }
+   
+}
+
+@media (max-width:550px){
+
+    #imagegrid{
+        height: 120vh;
+    }
+
+
+    
+    .imageview{
+        height: 14vh;
+    }
+    
+    .imageholder{
+        height: 14vh;
+    }
+}
+@media (min-width:330px) and (max-width:550px)
+    
+ {
+    #imagegrid{
+        height: 130vh;
+    }
+    .imageview{
+        height: 15vh;
+    }
+    
+    .imageholder{
+        height: 15vh;
+    }
+    
+}
+
+
+
+  
+        
+    
+    
