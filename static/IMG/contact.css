@@ -6,7 +6,7 @@
 /* Main Contact  */
 #maincontactcontainer{
     height:225vh;
-    width: 98.79vw;
+    width: 100vw;
     background-color: rgb(248, 244, 237);
     display: grid;
     grid-template-rows: 0.6fr 1.3fr 1.3fr 1fr;
@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: center;
     /* border:5px solid black; */
-    width: 98.79vw;
+    width: 100vw;
     }
 #contactdiv{
     margin-top:90px;
@@ -108,7 +108,14 @@
 @media (max-height: 640px){
         
    #maincontactcontainer{
-       height: 250vh;
+       height:    250vh;
+   }
+}
+@media (min-width: 800px){
+        
+   #maincontactcontainer{
+       height:    100vh;
+       grid-template-rows: 0.6fr 1fr 1.3fr 1fr;
    }
 }
 .formtext{
@@ -148,7 +155,7 @@ input::-webkit-inner-spin-button {
 #ownerdetails{
     
     background-color: rgb(248, 244, 237);
-    width: 98.79vw;
+    width: 100vw;
 }
 #info{
     display: flex;
@@ -158,10 +165,10 @@ input::-webkit-inner-spin-button {
     font-family: 'Varela Round', sans-serif;
     width:100%;
 }
-@media (max-height: 800px){
+@media (max-height: 1000px){
         
    #maincontactcontainer{
-       height: 200vh;
+       height:    200vh;
    }
 }
 

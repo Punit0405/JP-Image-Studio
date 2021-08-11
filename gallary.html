@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallary | JP Image Studio</title>
     <link rel="stylesheet" href="/static/IMG/gallary.css">
+    <link rel="stylesheet" href="/static/IMG/lightbox.min.css">
+    <link rel="stylesheet" href="/static/IMG/Gallary/lightbox2-2.11.3/lightbox2-2.11.3/src/css/lightbox.css">
+    <script src="/static/IMG/lightbox-plus-jquery.min.js"></script>
     <link rel="stylesheet" href="/static/IMG/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
         integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
@@ -97,21 +100,23 @@
                 <hr>
             </div>
             <div id="imagegrid">
-                <div class="imageholder"> <img src="/static/IMG/Gallary/IMG_0879.JPG" class="imageview" alt="image1"></div>
-                <div class="imageholder"><img src="/static/IMG/Gallary/IMG_0896.JPG" class="imageview" alt="image2"></div>
-                <div class="imageholder"><img src="/static/IMG/Gallary/IMG_0900.JPG" class="imageview" alt="image3"></div>
-                <div class="imageholder"><img src="/static/IMG/Gallary/IMG_2880.JPG" class="imageview" alt=""></div>
-                <div class="imageholder"> <img src="/static/IMG/Gallary/IMG_2925.JPG" class="imageview" alt=""></div>
-                <div class="imageholder"><img src="/static/IMG/Gallary/IMG_2946.JPG" class="imageview" alt=""></div>
-                <div class="imageholder"> <img src="/static/IMG/Gallary/IMG_4518.JPG" class="imageview" alt=""></src></div>
-                <div class="imageholder"><img src="/static/IMG/Gallary/IMG_4565 (2).JPG" class="imageview" alt=""></div>
-                <div class="imageholder"><img src="/static/IMG/Gallary/IMG_2390.JPG" class="imageview" alt=""></div>
-                <div class="imageholder"><img src="/static/IMG/Gallary/IMG_9710.JPG" class="imageview" alt=""></div>
-                <div class="imageholder"> <img src="/static/IMG/Gallary/IMG_0879.JPG" class="imageview" alt=""></div>
-                <div class="imageholder"> <img src="/static/IMG/Gallary/IMG_2368.JPG" class="imageview" alt=""></div>
-                <div class="imageholder"><img src="/static/IMG/Gallary/IMG_2533 copy.JPG" class="imageview" alt=""></div>
-                <div class="imageholder"><img src="/static/IMG/Gallary/IMG_1034.JPG" class="imageview" alt=""></div>
-                <div class="imageholder"><img src="/static/IMG/Gallary/IMG_4589 (2).JPG" class="imageview" alt=""></div>
+                <div class="imageholder">
+                    <a href="/static/IMG/Gallary/IMG_0879.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"> <img src="/static/IMG/Gallary/IMG_0879.JPG" class="imageview" alt="image1"></a></div>
+                <div class="imageholder">
+                    <a href="/static/IMG/Gallary/IMG_0896.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_0896.JPG" class="imageview" alt="image2"></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_0900.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_0900.JPG" class="imageview" alt="image3"></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_2880.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2880.JPG" class="imageview" alt=""></a></div>
+                <div class="imageholder"> <a href="/static/IMG/Gallary/IMG_2925.JPG>" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2925.JPG" class="imageview" alt=""></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_2946.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2946.JPG" class="imageview" alt=""></a></div>
+                <div class="imageholder"> <a href="/static/IMG/Gallary/IMG_4518.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_4518.JPG" class="imageview" alt=""></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_4565 (2).JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_4565 (2).JPG" class="imageview" alt=""></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_2390.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2390.JPG" class="imageview" alt=""></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_9710.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_9710.JPG" class="imageview" alt=""></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_0879.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_0879.JPG" class="imageview" alt=""></a></div>
+                <div class="imageholder"> <a href="/static/IMG/Gallary/IMG_2368.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2368.JPG" class="imageview" alt=""></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_2533 copy.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2533 copy.JPG" class="imageview" alt=""></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_1034.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_1034.JPG" class="imageview" alt=""></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_4589 (2).JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_4589 (2).JPG" class="imageview" alt=""></a></div>
 
             </div>
             

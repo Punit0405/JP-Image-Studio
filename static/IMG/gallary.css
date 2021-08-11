@@ -87,8 +87,14 @@
 }
 .imageview
 {
+  transition: 0.3s;
   height: 30vh;
   width:100%;
+}
+
+.imageview:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
 }
 @media (max-width: 950px)
 {
@@ -133,6 +139,16 @@
     .imageholder{
         height: 15vh;
     }
+    
+}
+
+@media (min-width: 1600px){
+
+   #imagegrid{
+       height: 140vh;
+   }
+        
+    
     
 }
 
