@@ -6,7 +6,6 @@
 /* Main Contact  */
 #maincontactcontainer{
     height:225vh;
-    width: 100vw;
     background-color: rgb(248, 244, 237);
     display: grid;
     grid-template-rows: 0.6fr 1.3fr 1.3fr 1fr;
@@ -24,7 +23,7 @@
     align-items: center;
     justify-content: center;
     /* border:5px solid black; */
-    width: 100vw;
+    
     }
 #contactdiv{
     margin-top:90px;

@@ -6,8 +6,6 @@
 #mainaboutcontainer{
     display: grid;
     background-color: rgb(248, 244, 237);
-    width: 100
-    vw;
     height: 165vh;
     grid-template-rows: 0.7fr 3fr 1fr ;
 

@@ -7,16 +7,13 @@
     margin: 0%;
     padding: 0%;
     display: grid;
-    width: 100vw;
     height:220vh;
     background-color: rgb(248, 244, 237);
     grid-template-rows:  1fr 2fr 3fr ;
 }
 
 /* Videos Section  */
-#gallaryvideos{
-    width: 100vw;
-}
+
 
 .videosh1{
     width:60%;

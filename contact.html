@@ -21,17 +21,17 @@
 </head>
 <body>
     <div id="maincontactcontainer">
-        <div id="header">
+        <div id="header" role="header">
             <div class="logo">
-                <img src="./static/IMG/logo.png" alt="Jp image Studio" class="logo" id="logo">
+                <img src="./static/IMG/logo.png" alt="Jp image Studio" role="logo" class="logo " id="logo">
             </div>
-            <div class="openMenu" ><i class="fa fa-bars" onclick='show()'></i></div>
+            <div class="openMenu" ><i class="fa fa-bars" role="menu" onclick='show()'></i></div>
             
-                <ul id="mainMenu">
-                    <li id="list1"><a href="/home" class="active">Home</a></li>
-                    <li id="list2"><a href="/gallary" class="overlay" id="gallary-t">Gallery</a></li>
-                    <li id="list3"><a href="/about" class="overlay" id="about-t">About Us</a></li>
-                    <li id="list4"><a href="/contact" class="overlay" id="contact-t">Contact Us</a></li>
+                <ul id="mainMenu" role="list"  >
+                    <li id="list1"><a href="/home" role="link" class="active" id="home-t" onmouseover=effecthome() onmouseout=normalhome()>Home</a></li>
+                    <li id="list2"><a href="/gallary" role="link" class="overlay" id="gallary-t" onmouseover=effectgallary() onmouseout=normalgallary()>Gallery</a></li>
+                    <li id="list3"><a href="/about" role="link" class="overlay" id="about-t" onmouseover=effectaboutus() onmouseout=normalaboutus()>About Us</a></li>
+                    <li id="list4"><a href="/contact" role="link" class="overlay" id="contact-t" onmouseover=effectcontactus() onmouseout=normalcontactus()>Contact Us</a></li>
                     <div class="closeMenu" ><i class="fa fa-times" onclick='hi();'></i></div>
                     <span class="icons">
                         <i class="fab fa-facebook"></i>
@@ -46,13 +46,10 @@
                 function hi(){
                     
                     
-                    // const mainMen = document.getElementById("navbar");
-                    // mainMen.style.display = 'none';
                     const mainMenu = document.getElementById("mainMenu");
-
                     mainMenu.style.top = '-120%';
                 }
-                
+              
                 
                 function show(){
                     
@@ -61,6 +58,119 @@
                     
                     mainMenu.style.top = '0';
                 }
+
+                function effecthome(){
+                 let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="black";
+                 b.style.color="lightgrey";
+                 c.style.color="lightgrey";
+                 d.style.color="lightgrey";
+                 a.style.transition="color 0.2s ease";
+                 b.style.transition="color 0.2s ease";
+                 c.style.transition="color 0.2s ease";
+                 d.style.transition="color 0.2s ease";
+                 }        
+             function normalhome(){
+                let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="grey";
+                 b.style.color="grey";
+                 c.style.color="grey";
+                 d.style.color="grey";
+                 a.style.transition="color 0.2s ease";
+                 b.style.transition="color 0.2s ease";
+                 c.style.transition="color 0.2s ease";
+                 d.style.transition="color 0.2s ease";
+             }
+             function effectgallary(){
+                 let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="lightgrey";
+                 b.style.color="black";
+                 c.style.color="lightgrey";
+                 d.style.color="lightgrey";
+                 a.style.transition="color 0.2s ease";
+                 b.style.transition="color 0.2s ease";
+                 c.style.transition="color 0.2s ease";
+                 d.style.transition="color 0.2s ease";
+                 }        
+             function normalgallary(){
+                let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="grey";
+                 b.style.color="grey";
+                 c.style.color="grey";
+                 d.style.color="grey";
+                 a.style.transition="color 0.2s ease";
+                 b.style.transition="color 0.2s ease";
+                 c.style.transition="color 0.2s ease";
+                 d.style.transition="color 0.2s ease";
+             }
+             function effectaboutus(){
+                 let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="lightgrey";
+                 b.style.color="lightgrey";
+                 c.style.color="black";
+                 d.style.color="lightgrey";
+                 a.style.transition="color 0.2s ease";
+                 b.style.transition="color 0.2s ease";
+                 c.style.transition="color 0.2s ease";
+                 d.style.transition="color 0.2s ease";
+                 }        
+             function normalaboutus(){
+                let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="grey";
+                 b.style.color="grey";
+                 c.style.color="grey";
+                 d.style.color="grey";
+                 a.style.transition="color 0.2s ease";
+                 b.style.transition="color 0.2s ease";
+                 c.style.transition="color 0.2s ease";
+                 d.style.transition="color 0.2s ease";
+             }
+             function effectcontactus(){
+                 let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="lightgrey";
+                 b.style.color="lightgrey";
+                 c.style.color="lightgrey";
+                 d.style.color="black";
+                 a.style.transition="color 0.2s ease";
+                 b.style.transition="color 0.2s ease";
+                 c.style.transition="color 0.2s ease";
+                 d.style.transition="color 0.2s ease";
+                 }        
+             function normalcontactus(){
+                let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="grey";
+                 b.style.color="grey";
+                 c.style.color="grey";
+                 d.style.color="grey";
+                 a.style.transition="color 0.2s ease";
+                 b.style.transition="color 0.2s ease";
+                 c.style.transition="color 0.2s ease";
+                 d.style.transition="color 0.2s ease";
+             }
 
                 
             </script>

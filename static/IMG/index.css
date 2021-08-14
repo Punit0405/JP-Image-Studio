@@ -1,15 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+    margin: 0%;
+    padding: 0%;
 }
 
 #maincontainer{
     position: absolute;
-    /* border: 1px solid red; */
     display: grid;
     grid-template-rows: 0.1fr 5fr 0.5fr  ;
     height:100vh;
-    width: 99.4vw;
+    
     
 }
 /* Header Section */
@@ -17,7 +16,7 @@
 {   
     position: sticky;
     top: 0;
-    width: 99.4vw;
+    
     height: 125px;
     display: flex;
     flex-direction: row;
@@ -33,6 +32,12 @@
 
 }
 
+#header ul{
+    position: relative;
+    right: 50px;
+    margin: auto 0px;
+}
+
 
 
 
@@ -45,15 +50,14 @@
     padding: 5px;
     text-decoration: none;
     font-size: 1.3rem;
-    color: rgb(65,136 ,255 );
-    font-family: 'Varela Round', sans-serif;
+    color: grey;
+    font-family: 'Jost', sans-serif;
 }
 
 
-#header ul li a:hover{
-    /* color:white; */
-    color:black;
 
+#header ul li a:hover{
+    color:black;
 }
 .openMenu {
     font-size: 2rem;
@@ -78,7 +82,7 @@
 #logo{
     position: relative;
     padding: 3px;
-    /* margin-right: 300px; */
+   
     height: 120px;
     width: 275x;
     
@@ -89,26 +93,23 @@
         margin-top: 20px;
         
     }
+    #maincontainer{
+        width: 99.3vw;
+    }
+    #header
+    {
+        width: 99.3vw;
+    }
     
         
     
     
 }
-
-
-
-
-
-  
-    
-    
-
-    /* section 2 */
+/* section 2 */
 
 #section2{
-    /* height: 150px; */
+    
     background-color: white;
-    width: 98.79vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,18 +117,27 @@
 .thought{
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
-    
-    
-    
 }
 #secondline{
     margin-left: 50px;
-    
 }
+
+@media (max-width:600px) {
+    #section2{
+        display: flex;
+        text-align: center;
+        
+    }
+    .thought{
+        font-size: 18px;
+    }
+    #secondline{
+        margin-left: 0px;
+    }
+}
+
 @media (max-width: 1000px){
-    /* #header{
-        flex-direction: column;
-    } */
+   
     #maincontainer{
         width:100vw
     }
@@ -140,12 +150,27 @@
     #header ul{
         color: white;
     }
+    #header ul li a{
+
+        color:white;
+        
+    
+    }
+    #header ul li a:hover{
+        /* color:white; */
+        color:white;
+    
+    }
     
     #section2{
         width: 100vw;
     }
     #logo{
+        height: 100px;
         width: 200px;
+        margin-top: 10px;
+            
+        
     }
     
     #header ul li a{

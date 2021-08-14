@@ -15,6 +15,7 @@
         integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    
     <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
@@ -26,48 +27,158 @@
 
 <body>
     <div id="maingallarycontainer">
-        <div id="header">
+        <div id="header" role="header">
             <div class="logo">
-                <img src="./static/IMG/logo.png" alt="Jp image Studio" class="logo" id="logo">
+                <img src="./static/IMG/logo.png" alt="Jp image Studio" role="logo" class="logo " id="logo">
             </div>
-            <div class="openMenu"><i class="fa fa-bars" onclick='show()'></i></div>
+            <div class="openMenu" ><i class="fa fa-bars" role="menu" onclick='show()'></i></div>
+            
+                <ul id="mainMenu" role="list"  >
+                    <li id="list1"><a href="/home" role="link" class="active" id="home-t" onmouseover=effecthome() onmouseout=normalhome()>Home</a></li>
+                    <li id="list2"><a href="/gallary" role="link" class="overlay" id="gallary-t" onmouseover=effectgallary() onmouseout=normalgallary()>Gallery</a></li>
+                    <li id="list3"><a href="/about" role="link" class="overlay" id="about-t" onmouseover=effectaboutus() onmouseout=normalaboutus()>About Us</a></li>
+                    <li id="list4"><a href="/contact" role="link" class="overlay" id="contact-t" onmouseover=effectcontactus() onmouseout=normalcontactus()>Contact Us</a></li>
+                    <div class="closeMenu" ><i class="fa fa-times" onclick='hi();'></i></div>
+                    <span class="icons">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
 
-            <ul id="mainMenu">
-                <li id="list1"><a href="/home">Home</a></li>
-                <li id="list2"><a href="/gallary" class="active" id="gallary-t">Gallery</a></li>
-                <li id="list3"><a href="/about" class="overlay" id="about-t">About Us</a></li>
-                <li id="list4"><a href="/contact" class="overlay" id="contact-t">Contact Us</a></li>
-                <div class="closeMenu"><i class="fa fa-times" onclick='hi();'></i></div>
-                <span class="icons">
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-youtube"></i>
-
-                </span>
-            </ul>
-
+                    </span>
+                </ul>
+            
 
             <script>
-                function hi() {
-
-
-                    // const mainMen = document.getElementById("navbar");
-                    // mainMen.style.display = 'none';
+                function hi(){
+                    
+                    
                     const mainMenu = document.getElementById("mainMenu");
-
                     mainMenu.style.top = '-120%';
                 }
-
-
-                function show() {
-
+              
+                
+                function show(){
+                    
                     const mainMenu = document.getElementById("mainMenu");
                     mainMenu.style.display = 'flex';
-
+                    
                     mainMenu.style.top = '0';
                 }
 
+                function effecthome(){
+                 let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="black";
+                 b.style.color="lightgrey";
+                 c.style.color="lightgrey";
+                 d.style.color="lightgrey";
+                 a.style.transition="color 0.2s ease";
+                 b.style.transition="color 0.2s ease";
+                 c.style.transition="color 0.2s ease";
+                 d.style.transition="color 0.2s ease";
+                 }        
+             function normalhome(){
+                let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="grey";
+                 b.style.color="grey";
+                 c.style.color="grey";
+                 d.style.color="grey";
+                 a.style.transition="color 0.2s ease";
+                 b.style.transition="color 0.2s ease";
+                 c.style.transition="color 0.2s ease";
+                 d.style.transition="color 0.2s ease";
+             }
+             function effectgallary(){
+                 let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="lightgrey";
+                 b.style.color="black";
+                 c.style.color="lightgrey";
+                 d.style.color="lightgrey";
+                 a.style.transition="color 0.2s ease";
+                 b.style.transition="color 0.2s ease";
+                 c.style.transition="color 0.2s ease";
+                 d.style.transition="color 0.2s ease";
+                 }        
+             function normalgallary(){
+                let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="grey";
+                 b.style.color="grey";
+                 c.style.color="grey";
+                 d.style.color="grey";
+                 a.style.transition="color 0.2s ease";
+                 b.style.transition="color 0.2s ease";
+                 c.style.transition="color 0.2s ease";
+                 d.style.transition="color 0.2s ease";
+             }
+             function effectaboutus(){
+                 let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="lightgrey";
+                 b.style.color="lightgrey";
+                 c.style.color="black";
+                 d.style.color="lightgrey";
+                 a.style.transition="color 0.2s ease";
+                 b.style.transition="color 0.2s ease";
+                 c.style.transition="color 0.2s ease";
+                 d.style.transition="color 0.2s ease";
+                 }        
+             function normalaboutus(){
+                let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="grey";
+                 b.style.color="grey";
+                 c.style.color="grey";
+                 d.style.color="grey";
+                 a.style.transition="color 0.2s ease";
+                 b.style.transition="color 0.2s ease";
+                 c.style.transition="color 0.2s ease";
+                 d.style.transition="color 0.2s ease";
+             }
+             function effectcontactus(){
+                 let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="lightgrey";
+                 b.style.color="lightgrey";
+                 c.style.color="lightgrey";
+                 d.style.color="black";
+                 a.style.transition="color 0.2s ease";
+                 b.style.transition="color 0.2s ease";
+                 c.style.transition="color 0.2s ease";
+                 d.style.transition="color 0.2s ease";
+                 }        
+             function normalcontactus(){
+                let a=document.getElementById("home-t");
+                 let b=document.getElementById("gallary-t");
+                 let c=document.getElementById("about-t");
+                 let d=document.getElementById("contact-t");
+                 a.style.color="grey";
+                 b.style.color="grey";
+                 c.style.color="grey";
+                 d.style.color="grey";
+                 a.style.transition="color 0.2s ease";
+                 b.style.transition="color 0.2s ease";
+                 c.style.transition="color 0.2s ease";
+                 d.style.transition="color 0.2s ease";
+             }
 
+                
             </script>
         </div>
         <div id="gallaryvideos">
@@ -118,7 +229,7 @@
                 <div class="imageholder"><a href="/static/IMG/Gallary/IMG_2880.JPG" data-lightbox="mygallery"
                         data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2880.JPG"
                             class="imageview" alt=""></a></div>
-                <div class="imageholder"> <a href="/static/IMG/Gallary/IMG_2925.JPG>" data-lightbox="mygallery"
+                <div class="imageholder"> <a href="/static/IMG/Gallary/IMG_2925.JPG" data-lightbox="mygallery"
                         data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2925.JPG"
                             class="imageview" alt=""></a></div>
                 <div class="imageholder"><a href="/static/IMG/Gallary/IMG_2946.JPG" data-lightbox="mygallery"
