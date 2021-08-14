@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +13,7 @@
     <link rel="stylesheet" href="/static/IMG/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
         integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
-    
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,50 +23,51 @@
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <!-- font-family: 'Varela Round', sans-serif; -->
 </head>
+
 <body>
     <div id="maingallarycontainer">
         <div id="header">
             <div class="logo">
                 <img src="./static/IMG/logo.png" alt="Jp image Studio" class="logo" id="logo">
             </div>
-            <div class="openMenu" ><i class="fa fa-bars" onclick='show()'></i></div>
-            
-                <ul id="mainMenu">
-                    <li id="list1"><a href="/home" >Home</a></li>
-                    <li id="list2"><a href="/gallary" class="active" id="gallary-t">Gallery</a></li>
-                    <li id="list3"><a href="/about" class="overlay" id="about-t">About Us</a></li>
-                    <li id="list4"><a href="/contact" class="overlay" id="contact-t">Contact Us</a></li>
-                    <div class="closeMenu" ><i class="fa fa-times" onclick='hi();'></i></div>
-                    <span class="icons">
-                        <i class="fab fa-facebook"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-youtube"></i>
+            <div class="openMenu"><i class="fa fa-bars" onclick='show()'></i></div>
 
-                    </span>
-                </ul>
-            
+            <ul id="mainMenu">
+                <li id="list1"><a href="/home">Home</a></li>
+                <li id="list2"><a href="/gallary" class="active" id="gallary-t">Gallery</a></li>
+                <li id="list3"><a href="/about" class="overlay" id="about-t">About Us</a></li>
+                <li id="list4"><a href="/contact" class="overlay" id="contact-t">Contact Us</a></li>
+                <div class="closeMenu"><i class="fa fa-times" onclick='hi();'></i></div>
+                <span class="icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+
+                </span>
+            </ul>
+
 
             <script>
-                function hi(){
-                    
-                    
+                function hi() {
+
+
                     // const mainMen = document.getElementById("navbar");
                     // mainMen.style.display = 'none';
                     const mainMenu = document.getElementById("mainMenu");
 
                     mainMenu.style.top = '-120%';
                 }
-                
-                
-                function show(){
-                    
+
+
+                function show() {
+
                     const mainMenu = document.getElementById("mainMenu");
                     mainMenu.style.display = 'flex';
-                    
+
                     mainMenu.style.top = '0';
                 }
 
-                
+
             </script>
         </div>
         <div id="gallaryvideos">
@@ -92,8 +94,8 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe></div>
             </div>
-          </div>
-            <div id="gallaryimages">
+        </div>
+        <div id="gallaryimages">
             <div class="videosh1">
                 <hr>
                 <h1 class="videos" id="videoheading">IMAGES</h1>
@@ -101,27 +103,62 @@
             </div>
             <div id="imagegrid">
                 <div class="imageholder">
-                    <a href="/static/IMG/Gallary/IMG_0879.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"> <img src="/static/IMG/Gallary/IMG_0879.JPG" class="imageview" alt="image1"></a></div>
+                    <a href="/static/IMG/Gallary/IMG_0879.JPG" data-lightbox="mygallery"
+                        data-title="Captured By JP Image Studio"> <img src="/static/IMG/Gallary/IMG_0879.JPG"
+                            class="imageview" alt="image1"></a>
+                </div>
                 <div class="imageholder">
-                    <a href="/static/IMG/Gallary/IMG_0896.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_0896.JPG" class="imageview" alt="image2"></a></div>
-                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_0900.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_0900.JPG" class="imageview" alt="image3"></a></div>
-                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_2880.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2880.JPG" class="imageview" alt=""></a></div>
-                <div class="imageholder"> <a href="/static/IMG/Gallary/IMG_2925.JPG>" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2925.JPG" class="imageview" alt=""></a></div>
-                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_2946.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2946.JPG" class="imageview" alt=""></a></div>
-                <div class="imageholder"> <a href="/static/IMG/Gallary/IMG_4518.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_4518.JPG" class="imageview" alt=""></a></div>
-                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_4565 (2).JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_4565 (2).JPG" class="imageview" alt=""></a></div>
-                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_2390.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2390.JPG" class="imageview" alt=""></a></div>
-                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_9710.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_9710.JPG" class="imageview" alt=""></a></div>
-                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_0879.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_0879.JPG" class="imageview" alt=""></a></div>
-                <div class="imageholder"> <a href="/static/IMG/Gallary/IMG_2368.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2368.JPG" class="imageview" alt=""></a></div>
-                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_2533 copy.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2533 copy.JPG" class="imageview" alt=""></a></div>
-                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_1034.JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_1034.JPG" class="imageview" alt=""></a></div>
-                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_4589 (2).JPG" data-lightbox="mygallery" data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_4589 (2).JPG" class="imageview" alt=""></a></div>
-
+                    <a href="/static/IMG/Gallary/IMG_0896.JPG" data-lightbox="mygallery"
+                        data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_0896.JPG"
+                            class="imageview" alt="image2"></a>
+                </div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_0900.JPG" data-lightbox="mygallery"
+                        data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_0900.JPG"
+                            class="imageview" alt="image3"></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_2880.JPG" data-lightbox="mygallery"
+                        data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2880.JPG"
+                            class="imageview" alt=""></a></div>
+                <div class="imageholder"> <a href="/static/IMG/Gallary/IMG_2925.JPG>" data-lightbox="mygallery"
+                        data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2925.JPG"
+                            class="imageview" alt=""></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_2946.JPG" data-lightbox="mygallery"
+                        data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2946.JPG"
+                            class="imageview" alt=""></a></div>
+                <div class="imageholder"> <a href="/static/IMG/Gallary/IMG_4518.JPG" data-lightbox="mygallery"
+                        data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_4518.JPG"
+                            class="imageview" alt=""></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_4565 (2).JPG" data-lightbox="mygallery"
+                        data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_4565 (2).JPG"
+                            class="imageview" alt=""></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_2390.JPG" data-lightbox="mygallery"
+                        data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2390.JPG"
+                            class="imageview" alt=""></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_9710.JPG" data-lightbox="mygallery"
+                        data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_9710.JPG"
+                            class="imageview" alt=""></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_0879.JPG" data-lightbox="mygallery"
+                        data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_0879.JPG"
+                            class="imageview" alt=""></a></div>
+                <div class="imageholder"> <a href="/static/IMG/Gallary/IMG_2368.JPG" data-lightbox="mygallery"
+                        data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2368.JPG"
+                            class="imageview" alt=""></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_2533 copy.JPG" data-lightbox="mygallery"
+                        data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_2533 copy.JPG"
+                            class="imageview" alt=""></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_1034.JPG" data-lightbox="mygallery"
+                        data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_1034.JPG"
+                            class="imageview" alt=""></a></div>
+                <div class="imageholder"><a href="/static/IMG/Gallary/IMG_4589 (2).JPG" data-lightbox="mygallery"
+                        data-title="Captured By JP Image Studio"><img src="/static/IMG/Gallary/IMG_4589 (2).JPG"
+                            class="imageview" alt=""></a></div>
+    
             </div>
-            
-          </div>
-        
-       </div>
+    
+        </div>
+    </div>
+    
+    
+
 </body>
+
 </html>

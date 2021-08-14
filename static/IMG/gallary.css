@@ -4,14 +4,19 @@
 }
 
 #maingallarycontainer{
+    margin: 0%;
+    padding: 0%;
     display: grid;
     width: 100vw;
-    height:325vh;
+    height:220vh;
     background-color: rgb(248, 244, 237);
-    grid-template-rows:  3fr 5fr ;
+    grid-template-rows:  1fr 2fr 3fr ;
 }
 
 /* Videos Section  */
+#gallaryvideos{
+    width: 100vw;
+}
 
 .videosh1{
     width:60%;
@@ -30,6 +35,7 @@
     /* border: 2px solid black; */
     width: 80%;
     margin: auto;
+    /* border: 1px solid black; */
 }
 
 
@@ -61,6 +67,7 @@
 #gallaryimages{
 
     background-color: rgb(248, 244, 237);
+    margin:  0px auto;
 }
 
 
@@ -68,93 +75,93 @@
 
 
 #imagegrid{
-    width: 70%;
-    height:160vh;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    width: 69%;
+    /* border: 1px solid black; */
     
-    row-gap: 10px;
-    column-gap: 10px;
-    justify-items: center;
+    margin:auto auto;
+
+
+    
+    
+    
+    
+    
 }
 
 .imageholder{
-    width: 100%;
+               width: 22.5vw;
     height: 30vh;
-  
+    display: inline-flex; 
+    /* border: 1px solid red ; */
+    
     
 }
 .imageview
 {
   transition: 0.3s;
   height: 30vh;
-  width:100%;
+  width:22.5vw;
 }
 
 .imageview:hover{
     filter: grayscale(100%);
     transform: scale(1.1);
 }
-@media (max-width: 950px)
+
+
+
+
+
+
+
+
+
+@media (max-width:1100px) and (min-width:900px)
 {
-   .video-setting{
-       width: 100%;
-       margin: 15px 0px;
-    }
-   #imagegrid{
-       grid-template-columns: 1fr 1fr;
-       row-gap: 0.3vh;
-       
-   }
-   
+         .imageholder
+         {
+             height: 20vh;}
+             .imageview
+             {
+                   height: 20vh;
+             }
 }
+@media (max-width:900px) and (min-width:650px)
+{         .video-setting{
+          width: 100%;
+          margin: 7px 0px;}
 
-@media (max-width:550px){
-
-    #imagegrid{
-        height: 120vh;
-    }
-
-
-    
-    .imageview{
-        height: 14vh;
-    }
-    
-    .imageholder{
-        height: 14vh;
-    }
+         .imageholder
+         {
+             height: 15vh;}
+             .imageview
+             {
+                   height: 15vh;
+             }
 }
-@media (min-width:330px) and (max-width:550px)
-    
- {
-    #imagegrid{
-        height: 130vh;
-    }
-    .imageview{
-        height: 15vh;
-    }
-    
-    .imageholder{
-        height: 15vh;
-    }
-    
+@media (max-width:650px) and (min-width:450px)
+{        .video-setting
+        {
+            width: 100%;
+            margin: 7px 0px;
+        }
+         .imageholder
+         {   width: 34vw;
+             height: 15vh;}
+             .imageview
+             {     width: 34vw;
+                   height: 15vh;
+             }
 }
-
-@media (min-width: 1600px){
-
-   #imagegrid{
-       height: 140vh;
-   }
-        
-    
-    
+@media (max-width:450px) and (min-width:300px)
+{         .video-setting{
+             width: 100%;
+           margin: 7px 0px;}   
+         .imageholder
+         {   width: 33.5vw;
+             height: 14vh;}
+             .imageview
+             {     width: 33.5vw;
+                   height: 14vh;
+             }
 }
-
-
-
-  
-        
-    
-    
