@@ -1,3 +1,4 @@
+
 body{
     margin: 0%;
     padding: 0%;
@@ -218,6 +219,24 @@ body{
 
 
 
+/* Review Section  */
+.vhover{
+    cursor: pointer;
+}
+.vhover:hover{
+    color: green;
+}
+.style{
+    
+    
+    display: inline;
+    width: 30%;
+    max-width: 30%;
+}
+
+.displaynone{
+    display: none;
+}
 /* Footer  Section */
 #footer{
     background-color: black;
@@ -258,3 +277,8 @@ body{
     .fa-youtube{color: rgb(235, 14, 14);}
     
 }
+
+
+
+
+

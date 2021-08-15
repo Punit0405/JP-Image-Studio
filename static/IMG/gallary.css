@@ -31,24 +31,24 @@ body{
 #videos-main{
     /* border: 2px solid black; */
     width: 80%;
-    margin: auto;
-    /* border: 1px solid black; */
+    margin: auto auto;
+    /* border: 1 px solid black; */
 }
 
 
 .video-setting{
-    width: 45%;
-    height: 34vh;
+    width: 48.5%;
+    height: 40vh;
     display: inline-flex;
     /* border: 2px solid red; */
-    margin: 23px 23px;
+    margin: 5px 5px;
 }
 
 
 
 .video-youtube{
     width: 110%;
-    height: 34vh;
+    height: 40vh;
     
     /* border: 2px solid red; */
     
@@ -56,7 +56,7 @@ body{
 
 @media (max-width: 1320px){
     .video-setting{
-        margin: 23px 15px;
+        margin: 23px 23px;
     }
     
 }
@@ -138,10 +138,11 @@ body{
 }
 @media (max-width:650px) and (min-width:450px)
 {        .video-setting
-        {
+        {   
             width: 100%;
             margin: 7px 0px;
         }
+        
         .videosh1{
             width: 80%;
         }
@@ -166,8 +167,10 @@ body{
 
     
            .video-setting{
+               
              width: 100%;
              margin: 7px 0px;}
+             
            .videosh1{
                width: 80%;
            }
