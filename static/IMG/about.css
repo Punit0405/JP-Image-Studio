@@ -1,13 +1,13 @@
-*{
+body{
     margin: 0%;
     padding:0%;
+    background-color: rgb(248, 244, 237);
 }
 
 #mainaboutcontainer{
     display: grid;
     background-color: rgb(248, 244, 237);
-    height: 165vh;
-    grid-template-rows: 0.7fr 3fr 1fr ;
+   
 
 }
 
@@ -21,7 +21,7 @@
 
 #contactdiv{
     margin-top:90px;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Jost', sans-serif;
     
 }
 #aboutintro{
@@ -35,7 +35,7 @@
     
 }
 .contact-about{
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-size: 22px;
     /* border:2px solid red; */
     padding: -5px 0px;
@@ -54,7 +54,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Jost', sans-serif;
     width:100%;
 }
 

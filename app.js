@@ -4,7 +4,7 @@ const path = require("path");
 const app = express();
 const port = 8080;
 const accountSid = 'ACb6b5d28cebc0b8ceeec993645392f774'; 
-const authToken = 'b6a8d146c1e18bbbd87f2c5863d0feab'; 
+const authToken = '33d0cdbefcad83d872c689597c8faf26'; 
 const client = require('twilio')(accountSid, authToken); 
 
   app.use(express.urlencoded());

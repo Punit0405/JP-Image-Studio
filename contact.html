@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
     integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
@@ -21,160 +22,208 @@
 </head>
 <body>
     <div id="maincontactcontainer">
-        <div id="header" role="header">
-            <div class="logo">
-                <img src="./static/IMG/logo.png" alt="Jp image Studio" role="logo" class="logo " id="logo">
-            </div>
-            <div class="openMenu" ><i class="fa fa-bars" role="menu" onclick='show()'></i></div>
-            
-                <ul id="mainMenu" role="list"  >
-                    <li id="list1"><a href="/home" role="link" class="active" id="home-t" onmouseover=effecthome() onmouseout=normalhome()>Home</a></li>
-                    <li id="list2"><a href="/gallary" role="link" class="overlay" id="gallary-t" onmouseover=effectgallary() onmouseout=normalgallary()>Gallery</a></li>
-                    <li id="list3"><a href="/about" role="link" class="overlay" id="about-t" onmouseover=effectaboutus() onmouseout=normalaboutus()>About Us</a></li>
-                    <li id="list4"><a href="/contact" role="link" class="overlay" id="contact-t" onmouseover=effectcontactus() onmouseout=normalcontactus()>Contact Us</a></li>
-                    <div class="closeMenu" ><i class="fa fa-times" onclick='hi();'></i></div>
-                    <span class="icons">
-                        <i class="fab fa-facebook"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-youtube"></i>
-
-                    </span>
-                </ul>
-            
-
-            <script>
-                function hi(){
-                    
-                    
-                    const mainMenu = document.getElementById("mainMenu");
-                    mainMenu.style.top = '-120%';
-                }
-              
-                
-                function show(){
-                    
-                    const mainMenu = document.getElementById("mainMenu");
-                    mainMenu.style.display = 'flex';
-                    
-                    mainMenu.style.top = '0';
-                }
-
-                function effecthome(){
-                 let a=document.getElementById("home-t");
-                 let b=document.getElementById("gallary-t");
-                 let c=document.getElementById("about-t");
-                 let d=document.getElementById("contact-t");
-                 a.style.color="black";
-                 b.style.color="lightgrey";
-                 c.style.color="lightgrey";
-                 d.style.color="lightgrey";
-                 a.style.transition="color 0.2s ease";
-                 b.style.transition="color 0.2s ease";
-                 c.style.transition="color 0.2s ease";
-                 d.style.transition="color 0.2s ease";
-                 }        
-             function normalhome(){
-                let a=document.getElementById("home-t");
-                 let b=document.getElementById("gallary-t");
-                 let c=document.getElementById("about-t");
-                 let d=document.getElementById("contact-t");
-                 a.style.color="grey";
-                 b.style.color="grey";
-                 c.style.color="grey";
-                 d.style.color="grey";
-                 a.style.transition="color 0.2s ease";
-                 b.style.transition="color 0.2s ease";
-                 c.style.transition="color 0.2s ease";
-                 d.style.transition="color 0.2s ease";
-             }
-             function effectgallary(){
-                 let a=document.getElementById("home-t");
-                 let b=document.getElementById("gallary-t");
-                 let c=document.getElementById("about-t");
-                 let d=document.getElementById("contact-t");
-                 a.style.color="lightgrey";
-                 b.style.color="black";
-                 c.style.color="lightgrey";
-                 d.style.color="lightgrey";
-                 a.style.transition="color 0.2s ease";
-                 b.style.transition="color 0.2s ease";
-                 c.style.transition="color 0.2s ease";
-                 d.style.transition="color 0.2s ease";
-                 }        
-             function normalgallary(){
-                let a=document.getElementById("home-t");
-                 let b=document.getElementById("gallary-t");
-                 let c=document.getElementById("about-t");
-                 let d=document.getElementById("contact-t");
-                 a.style.color="grey";
-                 b.style.color="grey";
-                 c.style.color="grey";
-                 d.style.color="grey";
-                 a.style.transition="color 0.2s ease";
-                 b.style.transition="color 0.2s ease";
-                 c.style.transition="color 0.2s ease";
-                 d.style.transition="color 0.2s ease";
-             }
-             function effectaboutus(){
-                 let a=document.getElementById("home-t");
-                 let b=document.getElementById("gallary-t");
-                 let c=document.getElementById("about-t");
-                 let d=document.getElementById("contact-t");
-                 a.style.color="lightgrey";
-                 b.style.color="lightgrey";
-                 c.style.color="black";
-                 d.style.color="lightgrey";
-                 a.style.transition="color 0.2s ease";
-                 b.style.transition="color 0.2s ease";
-                 c.style.transition="color 0.2s ease";
-                 d.style.transition="color 0.2s ease";
-                 }        
-             function normalaboutus(){
-                let a=document.getElementById("home-t");
-                 let b=document.getElementById("gallary-t");
-                 let c=document.getElementById("about-t");
-                 let d=document.getElementById("contact-t");
-                 a.style.color="grey";
-                 b.style.color="grey";
-                 c.style.color="grey";
-                 d.style.color="grey";
-                 a.style.transition="color 0.2s ease";
-                 b.style.transition="color 0.2s ease";
-                 c.style.transition="color 0.2s ease";
-                 d.style.transition="color 0.2s ease";
-             }
-             function effectcontactus(){
-                 let a=document.getElementById("home-t");
-                 let b=document.getElementById("gallary-t");
-                 let c=document.getElementById("about-t");
-                 let d=document.getElementById("contact-t");
-                 a.style.color="lightgrey";
-                 b.style.color="lightgrey";
-                 c.style.color="lightgrey";
-                 d.style.color="black";
-                 a.style.transition="color 0.2s ease";
-                 b.style.transition="color 0.2s ease";
-                 c.style.transition="color 0.2s ease";
-                 d.style.transition="color 0.2s ease";
-                 }        
-             function normalcontactus(){
-                let a=document.getElementById("home-t");
-                 let b=document.getElementById("gallary-t");
-                 let c=document.getElementById("about-t");
-                 let d=document.getElementById("contact-t");
-                 a.style.color="grey";
-                 b.style.color="grey";
-                 c.style.color="grey";
-                 d.style.color="grey";
-                 a.style.transition="color 0.2s ease";
-                 b.style.transition="color 0.2s ease";
-                 c.style.transition="color 0.2s ease";
-                 d.style.transition="color 0.2s ease";
-             }
-
-                
-            </script>
+      <div id="header" role="navigation">
+        <div class="logo">
+            <a href="/home"><img src="./static/IMG/logo.png" alt="Jp image Studio" role="logo" class="logo " id="logo"></a>
         </div>
+        <div class="openMenu" ><i class="fa fa-bars" role="menu" onclick='show()'></i></div>
+        
+            <ul id="mainMenu" role="list">
+                <li id="list1"><a href="/home" role="link" class="active" id="home-t" onmouseover=effecthome() onmouseout=normalhome()>Home</a></li>
+                <li id="list2"><a href="/gallary" role="link" class="overlay" id="gallary-t" onmouseover=effectgallary() onmouseout=normalgallary()>Gallery</a></li>
+                <li id="list3"><a href="/about" role="link" class="overlay" id="about-t" onmouseover=effectaboutus() onmouseout=normalaboutus()>About Us</a></li>
+                <li id="list4"><a href="/contact" role="link" class="overlay" id="contact-t" onmouseover=effectcontactus() onmouseout=normalcontactus()>Contact Us</a></li>
+                <div class="closeMenu" ><i class="fa fa-times" onclick='hi();'></i></div>
+                
+            </ul>
+        
+
+        <script>
+          var x= window.matchMedia("(min-width:1000px)")
+
+          
+           
+
+          function normalr(){
+            if(!(x.matches)){
+              let a=document.getElementById("home-t");
+             let b=document.getElementById("gallary-t");
+             let c=document.getElementById("about-t");
+             let d=document.getElementById("contact-t");
+             a.style.color="white";
+             b.style.color="white";
+             c.style.color="white";
+             d.style.color="white";
+
+            }
+          }
+            function hi(){
+                
+                
+                const mainMenu = document.getElementById("mainMenu");
+                mainMenu.style.top = '-120%';
+                
+            }
+          
+            
+            function show(){
+                
+                const mainMenu = document.getElementById("mainMenu");
+                mainMenu.style.top = '0';
+                
+               
+                
+            }
+
+            function effecthome(){
+              if(x.matches){
+                let a=document.getElementById("home-t");
+             let b=document.getElementById("gallary-t");
+             let c=document.getElementById("about-t");
+             let d=document.getElementById("contact-t");
+             a.style.color="black";
+             b.style.color="lightgrey";
+             c.style.color="lightgrey";
+             d.style.color="lightgrey";
+             a.style.transition="color 0.2s ease";
+             b.style.transition="color 0.2s ease";
+             c.style.transition="color 0.2s ease";
+             d.style.transition="color 0.2s ease";
+              }
+
+            
+             
+             }        
+         function normalhome(){
+           if(x.matches){
+            let a=document.getElementById("home-t");
+             let b=document.getElementById("gallary-t");
+             let c=document.getElementById("about-t");
+             let d=document.getElementById("contact-t");
+             a.style.color="grey";
+             b.style.color="grey";
+             c.style.color="grey";
+             d.style.color="grey";
+             a.style.transition="color 0.2s ease";
+             b.style.transition="color 0.2s ease";
+             c.style.transition="color 0.2s ease";
+             d.style.transition="color 0.2s ease";
+             
+           }
+            
+         }
+         function effectgallary(){
+           if(x.matches){
+            let a=document.getElementById("home-t");
+             let b=document.getElementById("gallary-t");
+             let c=document.getElementById("about-t");
+             let d=document.getElementById("contact-t");
+             a.style.color="lightgrey";
+             b.style.color="black";
+             c.style.color="lightgrey";
+             d.style.color="lightgrey";
+             a.style.transition="color 0.2s ease";
+             b.style.transition="color 0.2s ease";
+             c.style.transition="color 0.2s ease";
+             d.style.transition="color 0.2s ease";
+             
+           }
+             
+             }        
+         function normalgallary(){
+           if(x.matches){
+            let a=document.getElementById("home-t");
+             let b=document.getElementById("gallary-t");
+             let c=document.getElementById("about-t");
+             let d=document.getElementById("contact-t");
+             a.style.color="grey";
+             b.style.color="grey";
+             c.style.color="grey";
+             d.style.color="grey";
+             a.style.transition="color 0.2s ease";
+             b.style.transition="color 0.2s ease";
+             c.style.transition="color 0.2s ease";
+             d.style.transition="color 0.2s ease";
+             
+           }
+            
+         }
+         function effectaboutus(){
+           if(x.matches){
+            let a=document.getElementById("home-t");
+             let b=document.getElementById("gallary-t");
+             let c=document.getElementById("about-t");
+             let d=document.getElementById("contact-t");
+             a.style.color="lightgrey";
+             b.style.color="lightgrey";
+             c.style.color="black";
+             d.style.color="lightgrey";
+             a.style.transition="color 0.2s ease";
+             b.style.transition="color 0.2s ease";
+             c.style.transition="color 0.2s ease";
+             d.style.transition="color 0.2s ease";
+             
+           }
+             
+             }        
+         function normalaboutus(){
+           if(x.matches){
+            let a=document.getElementById("home-t");
+             let b=document.getElementById("gallary-t");
+             let c=document.getElementById("about-t");
+             let d=document.getElementById("contact-t");
+             a.style.color="grey";
+             b.style.color="grey";
+             c.style.color="grey";
+             d.style.color="grey";
+             a.style.transition="color 0.2s ease";
+             b.style.transition="color 0.2s ease";
+             c.style.transition="color 0.2s ease";
+             d.style.transition="color 0.2s ease";
+             
+           }
+            
+         }
+         function effectcontactus(){
+           if(x.matches){
+            let a=document.getElementById("home-t");
+             let b=document.getElementById("gallary-t");
+             let c=document.getElementById("about-t");
+             let d=document.getElementById("contact-t");
+             a.style.color="lightgrey";
+             b.style.color="lightgrey";
+             c.style.color="lightgrey";
+             d.style.color="black";
+             a.style.transition="color 0.2s ease";
+             b.style.transition="color 0.2s ease";
+             c.style.transition="color 0.2s ease";
+             d.style.transition="color 0.2s ease";
+             
+           }
+             
+             }        
+         function normalcontactus(){
+           if(x.matches){
+            let a=document.getElementById("home-t");
+             let b=document.getElementById("gallary-t");
+             let c=document.getElementById("about-t");
+             let d=document.getElementById("contact-t");
+             a.style.color="grey";
+             b.style.color="grey";
+             c.style.color="grey";
+             d.style.color="grey";
+             a.style.transition="color 0.2s ease";
+             b.style.transition="color 0.2s ease";
+             c.style.transition="color 0.2s ease";
+             d.style.transition="color 0.2s ease";
+             
+           }
+            
+         }
+
+            
+        </script>
+    </div>
         <div id="contactwelcome">
             <section id="contactsection">
                 <div class="contactus" id="contactdiv">
@@ -229,6 +278,16 @@
     <div id="address"><h3> Contact No:9913890055,8488889701</h3></div>
 </section>
         </div>
+        <div id="footer">
+          <p id="footertext">Copyright &#169;2021 | All Rights Reserved.</p>
+          <p id="footertext2" >For More Info Visit:</p>
+          <div class="icons">
+            <a class="iconst" href="https://www.facebook.com/JP-image-studio-103286311460195/"><i class="fab fa-facebook"></i></a>
+            <a class="iconst" href="https://instagram.com/jp_image_studio?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+            <a class="iconst" href="https://www.youtube.com/channel/UCo9o3rck2o7lO8NVBDGG1fQ"><i class="fab fa-youtube"></i></a>
+
+        </div>
+        </div> 
     </div>
 </body>
 </html>

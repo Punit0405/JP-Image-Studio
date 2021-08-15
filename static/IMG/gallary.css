@@ -1,15 +1,15 @@
-*{
+body{
     margin: 0%;
     padding: 0%;
+    background-color: rgb(248, 244, 237);
+
 }
 
 #maingallarycontainer{
     margin: 0%;
     padding: 0%;
     display: grid;
-    height:220vh;
     background-color: rgb(248, 244, 237);
-    grid-template-rows:  1fr 2fr 3fr ;
 }
 
 /* Videos Section  */
@@ -26,7 +26,7 @@
     color: grey;
     font-size: 40px;
     letter-spacing: 5px;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Jost', sans-serif;
 }
 #videos-main{
     /* border: 2px solid black; */
@@ -142,23 +142,46 @@
             width: 100%;
             margin: 7px 0px;
         }
+        .videosh1{
+            width: 80%;
+        }
+        #imagegrid{
+            width: 79%;
+             margin:auto auto;
+        
+        }
          .imageholder
-         {   width: 34vw;
-             height: 15vh;}
+         {   width: 39vw;
+             height: 18vh;}
              .imageview
-             {     width: 34vw;
-                   height: 15vh;
+             {     width: 39vw;
+                   height: 18vh;
              }
 }
 @media (max-width:450px) and (min-width:300px)
-{         .video-setting{
+{         #videos-main{
+           width: 90%;
+           margin: auto auto;
+          } 
+
+    
+           .video-setting{
              width: 100%;
-           margin: 7px 0px;}   
+             margin: 7px 0px;}
+           .videosh1{
+               width: 80%;
+           }
+           #imagegrid{
+            width: 89%;
+            margin:auto auto;
+        
+        }   
          .imageholder
-         {   width: 33.5vw;
-             height: 14vh;}
-             .imageview
-             {     width: 33.5vw;
-                   height: 14vh;
+         {   width: 43.5vw;
+             height: 17vh;}
+             
+        .imageview
+             {     width: 43.5vw;
+                   height: 17vh;
              }
 }
