@@ -1,19 +1,35 @@
 const express = require("express");
+require('dotenv').config();
+const mysql = require('mysql');
 const fs = require("fs");
 const path = require("path");
 const app = express();
 const port =8080;
-const accountSid = 'ACb6b5d28cebc0b8ceeec993645392f774'; 
-const authToken = '33d0cdbefcad83d872c689597c8faf26'; 
-const client = require('twilio')(accountSid, authToken); 
 
-  app.use(express.urlencoded());
+
+
+
+
+
+app.use(express.urlencoded());
 
 const gallary=fs.readFileSync('./gallary.html');
 const contact=fs.readFileSync('./contact.html');
 const index=fs.readFileSync('./index.html');
 const about=fs.readFileSync('./about.html');
-
+var connection = mysql.createConnection({
+  host:process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password:process.env.DB_PASSWORD,
+  database: process.env.DB_NAME
+});
+connection.connect(function(err) {
+  if (err) throw err;
+  console.log("Connected!");});
+  
+  
+  
+  
 // // For serving static files
 app.use('/static', express.static('static'))
 
@@ -38,7 +54,7 @@ app.get('/about',(req,res)=>{
     res.status(200).end(about);
 });
 
-app.get('/gallary',(req,res)=>{
+app.get('/gallery',(req,res)=>{
     res.status(200).end(gallary);
 });
 
@@ -51,17 +67,16 @@ app.post('/submit',(req,res)=>{
     let Subject = req.body.Subject;
     let reference = req.body.reference;
 
+    const formsql =`INSERT INTO contactdata ( FirstName, LastName, Phone, Email, Message, Subject, Reference, Date) VALUES ( '${FirstName}', '${LastName}', '${Phone}', '${Email}', '${Message}', '${Subject} ', '${reference} ', current_timestamp())`;
+
+    connection.query(formsql, function (err, result) {
+        if (err) throw err;
+        console.log("formsql Row Insterted");
+      });
+
     
 
-    let Details=`First Name: ${FirstName}\nLast Name: ${LastName}\nSubject: ${Subject}\nMessage : ${Message}\nPhone: ${Phone}\nEmail: ${Email}\nreference: ${reference}`
-    
-    client.messages.create({ 
-         body: `Form Filled On JP IMAGING STUDIO!!.Here Are The Details!.\n${Details}`, 
-         from: 'whatsapp:+14155238886',       
-         to: 'whatsapp:+919265517932'  
-       }) 
-      .then(message => console.log(message.sid)) 
-      .done();
+   
     
   res.status(200).end(contact);
         
@@ -69,8 +84,6 @@ app.post('/submit',(req,res)=>{
 
 
 
-app.listen(port, ()=>{
-    console.log(`The application started successfully on port ${port}`);
-});
+app.listen();
 
 

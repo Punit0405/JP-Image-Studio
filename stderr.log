@@ -1,0 +1,1194 @@
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio/lib/rest/preview/wireless/command'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:7:25)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio/lib/rest/preview/wireless/command'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:7:25)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio/lib/rest/preview/wireless/command'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:7:25)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio/lib/rest/preview/wireless/command'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:7:25)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio/lib/rest/preview/wireless/command'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:7:25)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio/lib/rest/preview/wireless/command'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:7:25)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio/lib/rest/preview/wireless/command'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:7:25)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio/lib/rest/preview/wireless/command'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:7:25)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio/lib/rest/preview/wireless/command'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:7:25)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio/lib/rest/preview/wireless/command'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:7:25)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio/lib/rest/preview/wireless/command'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/jpimages/JPIMAGESTUDIO/app.js:7:25)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+/home/jpimages/JPIMAGESTUDIO/app.js:87
+app.listen(){
+            ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/jpimages/JPIMAGESTUDIO/app.js:87
+app.listen(){
+            ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/jpimages/JPIMAGESTUDIO/app.js:87
+app.listen(){
+            ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/jpimages/JPIMAGESTUDIO/app.js:87
+app.listen(){
+            ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/jpimages/JPIMAGESTUDIO/app.js:87
+app.listen(){
+            ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/jpimages/JPIMAGESTUDIO/app.js:87
+app.listen(){
+            ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+Sun, 29 Aug 2021 02:55:13 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Sun, 29 Aug 2021 02:59:22 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Sun, 29 Aug 2021 03:01:03 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Sun, 29 Aug 2021 03:29:40 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Sun, 29 Aug 2021 06:54:49 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Sun, 29 Aug 2021 07:22:12 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Sun, 29 Aug 2021 15:28:40 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Sun, 29 Aug 2021 15:52:18 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Sun, 29 Aug 2021 16:23:30 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Mon, 30 Aug 2021 02:35:33 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Mon, 30 Aug 2021 05:11:51 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Mon, 30 Aug 2021 07:08:12 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Mon, 30 Aug 2021 07:37:32 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Mon, 30 Aug 2021 08:23:26 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Mon, 30 Aug 2021 08:28:27 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Mon, 30 Aug 2021 08:29:43 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Mon, 30 Aug 2021 09:18:13 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Mon, 30 Aug 2021 09:18:14 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Mon, 30 Aug 2021 09:19:43 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Mon, 30 Aug 2021 10:50:54 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Mon, 30 Aug 2021 11:10:11 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Mon, 30 Aug 2021 15:21:57 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Mon, 30 Aug 2021 23:39:27 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Tue, 31 Aug 2021 05:29:03 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Tue, 31 Aug 2021 05:39:47 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Tue, 31 Aug 2021 05:51:52 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Tue, 31 Aug 2021 06:31:41 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Tue, 31 Aug 2021 14:36:46 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Tue, 31 Aug 2021 17:09:41 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Wed, 01 Sep 2021 01:21:16 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 05:58:22 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 06:01:08 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 06:09:44 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 06:15:33 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 06:19:45 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 06:20:16 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 06:20:20 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 08:07:51 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 08:07:51 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 08:12:50 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 08:16:43 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+Wed, 01 Sep 2021 08:19:16 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 08:21:39 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 08:22:21 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 08:23:47 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 08:30:50 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 08:32:03 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 08:32:49 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 08:32:57 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 08:33:17 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 08:38:57 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 15:52:16 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Wed, 01 Sep 2021 16:43:03 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 16:43:21 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 16:43:22 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 16:50:02 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 16:50:43 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 16:50:59 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 16:51:05 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 16:54:58 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+Wed, 01 Sep 2021 16:54:59 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 16:55:05 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 16:56:48 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 17:06:28 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 17:12:21 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 17:12:23 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+Wed, 01 Sep 2021 17:13:11 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 17:14:48 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 17:43:52 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 01 Sep 2021 17:43:53 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Thu, 02 Sep 2021 02:58:51 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+Thu, 02 Sep 2021 04:05:38 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Thu, 02 Sep 2021 08:40:11 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Thu, 02 Sep 2021 16:55:11 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Fri, 03 Sep 2021 01:03:00 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Fri, 03 Sep 2021 05:28:50 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Fri, 03 Sep 2021 13:47:10 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Fri, 03 Sep 2021 15:12:38 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Fri, 03 Sep 2021 23:16:56 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Sat, 04 Sep 2021 07:18:09 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Sat, 04 Sep 2021 16:32:44 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Sun, 05 Sep 2021 01:33:11 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Sun, 05 Sep 2021 09:52:38 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Sun, 05 Sep 2021 13:08:55 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Sun, 05 Sep 2021 13:19:59 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Sun, 05 Sep 2021 17:32:10 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Mon, 06 Sep 2021 01:44:38 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Mon, 06 Sep 2021 04:43:27 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Mon, 06 Sep 2021 07:57:01 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Mon, 06 Sep 2021 16:51:50 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Tue, 07 Sep 2021 00:51:50 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Tue, 07 Sep 2021 09:08:31 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Tue, 07 Sep 2021 11:40:15 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Tue, 07 Sep 2021 17:23:49 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Wed, 08 Sep 2021 02:16:38 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Wed, 08 Sep 2021 10:36:03 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Wed, 08 Sep 2021 17:17:12 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Thu, 09 Sep 2021 01:26:58 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Thu, 09 Sep 2021 06:27:55 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Thu, 09 Sep 2021 14:45:46 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Thu, 09 Sep 2021 15:37:37 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Fri, 10 Sep 2021 00:54:22 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Fri, 10 Sep 2021 06:30:38 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Fri, 10 Sep 2021 15:05:27 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+Fri, 10 Sep 2021 18:47:23 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/jpimages/nodevenv/JPIMAGESTUDIO/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Sat, 11 Sep 2021 04:00:58 GMT body-parser deprecated undefined extended: provide extended option at app.js:14:17
